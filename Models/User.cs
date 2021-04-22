@@ -19,8 +19,7 @@ namespace webapiprojeto.Models
         [Required(ErrorMessage = "Esse campo é obrigario")]
         [MaxLength(20, ErrorMessage = "Este campo deve conter de 3 a 20 caracteres")]
         [MinLength(3, ErrorMessage = "Este campo deve conter de 3 a 20 caracteres")]
-        public string Passoword { get; set; }
-
-        public string Role { get; set; }    
+        public string Password { get; set; }
+        public string Role { get; set; }
     }
 }

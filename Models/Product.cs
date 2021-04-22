@@ -27,8 +27,6 @@ namespace webapiprojeto.Models
         [Range(1, int.MaxValue, ErrorMessage = "Este campo deve conter 1 caractere")]
         public int CategoryId { get; set; }
         public Category Category { get; set; }
-
-
-
+        
     }
 }
